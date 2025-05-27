@@ -19,5 +19,9 @@ int main() {
     float pib2;
     int pontosTuristicos2;
 
+    // Variáveis para cálculo
+    float densidade1, densidade2;
+    float pibPerCapita1, pibPerCapita2;
+
     return 0;
 }
