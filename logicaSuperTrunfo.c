@@ -74,5 +74,10 @@ int main() {
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
 
-    
+    // Cálculos derivados
+    float densidade1 = populacao1 / area1;
+    float ppc1 = pib1 / populacao1;
+
+    float densidade2 = populacao2 / area2;
+    float ppc2 = pib2 / populacao2;
 } 
