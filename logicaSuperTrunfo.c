@@ -103,4 +103,9 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB per Capita: %.2f bilhoes/hab\n", ppc2);
+
+    // Comparação: Atributo escolhido = População
+    printf("\nComparacao de cartas (Atributo: Populacao):\n");
+    printf("Carta 1 - %s: %d habitantes\n", nomeCidade1, populacao1);
+    printf("Carta 2 - %s: %d habitantes\n", nomeCidade2, populacao2);
 } 
